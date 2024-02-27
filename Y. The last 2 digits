@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+ 
+int main() 
+{
+    long long a,b,c,d,x;
+    scanf("%lld %lld %lld %lld",&a,&b,&c,&d);
+    a=a%100;
+    d=d%100;
+    c=c%100;
+    b=b%100;
+    x = (a*b*c*d)%100;
+    printf("%02d",x);
+ 
+    return 0;
+}
