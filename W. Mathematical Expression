@@ -1,0 +1,43 @@
+#include <stdio.h>
+ 
+int main()
+{
+    int a, b,c;
+    char s1,s2;
+    scanf("%d %c %d %c %d", &a, &s1, &b, &s2, &c);
+    if (s1 == '+')
+    {
+        if ((a+b)==c)
+        {
+            printf("Yes");
+        }
+        else
+        {
+            printf("%d",a+b);
+        }
+    }
+    else if (s1 == '-')
+    {
+        if ((a-b)==c)
+        {
+            printf("Yes");
+        }
+        else
+        {
+            printf("%d",a-b);
+        }
+    }
+ 
+    else if (s1 == '*')
+    {
+        if ((a*b)==c)
+        {
+            printf("Yes");
+        }
+        else
+        {
+            printf("%d",a*b);
+        }
+    }
+        return 0;
+}
