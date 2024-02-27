@@ -1,0 +1,12 @@
+#include<stdio.h>
+ 
+int main()
+{
+    double R,pi =3.141592653;
+    scanf("%lf",&R);
+    if (1<=R<=100){
+    double A = pi*(R*R);
+    printf("%.9f",A);
+    }
+return 0;
+}
