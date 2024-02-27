@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+    long long N, M;
+    scanf("%lld %lld", &N, &M);
+    
+    if(0<=N && M<=10^18){
+    int lastDigitN = N % 10,lastDigitM = M % 10;
+ 
+    int summation = lastDigitN + lastDigitM;
+    printf("%d", summation);
+    }
+    return 0;
+}
